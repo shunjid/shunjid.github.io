@@ -27,6 +27,7 @@ export default function Page() {
                 className="inline-flex gap-x-1.5 align-baseline leading-none hover:underline"
                 href={RESUME_DATA.locationLink}
                 target="_blank"
+                aria-label={RESUME_DATA.location}
               >
                 <GlobeIcon className="h-3 w-3" />
                 {RESUME_DATA.location}
@@ -65,7 +66,7 @@ export default function Page() {
                   size="icon"
                   asChild
                 >
-                  <a href={social.url}>
+                  <a href={social.url} aria-label={social.name}>
                     <social.icon className="h-4 w-4" />
                   </a>
                 </Button>
