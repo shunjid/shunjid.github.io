@@ -17,7 +17,7 @@ export const RESUME_DATA = {
     "Jest",
     "Pytest",
     "MongoDB",
-    "MySQL"
+    "MySQL",
   ],
   summary: `With over 3 years of dedicated expertise, 
     I specialize in crafting robust APIs using technologies such as TypeScript, Express.js, Node.js, Nest.js, and Python with Flask. 
