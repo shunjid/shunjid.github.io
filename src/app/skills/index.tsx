@@ -2,11 +2,12 @@ import React from "react";
 
 import { Badge } from "@/components/ui/badge";
 import { Section } from "@/components/ui/section";
+import { IResume } from "@/data/types";
 
 export default function Skills(
-  props: React.PropsWithoutRef<{ data: string[] }>,
+  props: React.PropsWithoutRef<{ data: Pick<IResume, "skills"> }>,
 ) {
-  const skills = props.data;
+  const { skills } = props.data;
 
   return (
     <Section>
