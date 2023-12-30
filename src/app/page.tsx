@@ -1,11 +1,11 @@
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import { Badge } from "@/components/ui/badge";
 import { CommandMenu } from "@/components/command-menu";
 import { Metadata } from "next";
 import { Section } from "@/components/ui/section";
 import { GlobeIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { resume } from "@/data";
+import Skills from "./skills";
 
 export const metadata: Metadata = {
   title: `${resume.name}`,
@@ -61,14 +61,7 @@ export default function Page() {
             {resume.summaries.join(" ")}
           </p>
         </Section>
-        <Section>
-          <h2 className="text-xl font-bold">Skills</h2>
-          <div className="flex flex-wrap gap-1">
-            {resume.skills.map((skill) => {
-              return <Badge key={skill}>{skill}</Badge>;
-            })}
-          </div>
-        </Section>
+        <Skills data={resume.skills} />
       </section>
 
       <CommandMenu
