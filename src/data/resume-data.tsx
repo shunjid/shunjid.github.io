@@ -1,8 +1,9 @@
 import { GitHubIcon } from "@/components/icons/GitHubIcon";
 import { LinkedInIcon } from "@/components/icons/LinkedInIcon";
 import { XIcon } from "@/components/icons/XIcon";
+import { IResume } from "./types";
 
-export const RESUME_DATA = {
+export const RESUME_DATA: IResume = {
   name: "Shunjid Rahman Showrov",
   initials: "SRS",
   location: "Dhaka, Bangladesh",
@@ -25,8 +26,6 @@ export const RESUME_DATA = {
   avatarUrl: "https://avatars.githubusercontent.com/u/29749035?v=4",
   personalWebsiteUrl: "https://shunjid.github.io",
   contact: {
-    email: undefined,
-    tel: undefined,
     social: [
       {
         name: "GitHub",
@@ -45,7 +44,4 @@ export const RESUME_DATA = {
       },
     ],
   },
-  education: [],
-  work: [],
-  projects: [],
 } as const;
