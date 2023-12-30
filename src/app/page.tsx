@@ -1,10 +1,12 @@
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import { CommandMenu } from "@/components/command-menu";
-import { Metadata } from "next";
-import { Section } from "@/components/ui/section";
 import { GlobeIcon } from "lucide-react";
+import { Metadata } from "next";
+
+import { CommandMenu } from "@/components/command-menu";
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Button } from "@/components/ui/button";
+import { Section } from "@/components/ui/section";
 import { resume } from "@/data";
+
 import Skills from "./skills";
 
 export const metadata: Metadata = {
