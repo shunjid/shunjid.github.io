@@ -1,0 +1,49 @@
+import React from "react";
+
+import { Card, CardContent, CardHeader } from "@/components/ui/card";
+import { Section } from "@/components/ui/section";
+import { IResume } from "@/data/types";
+
+export default function Experience(
+  props: React.PropsWithoutRef<{
+    data: Pick<IResume, "experience">;
+  }>,
+) {
+  const { experience } = props.data;
+
+  return (
+    <Section>
+      <h2 className="text-xl font-bold">Work Experience</h2>
+      {experience.map((individualExperience) => (
+        <Card key={1} className="bg-warning">
+          <CardHeader>
+            <div className="flex items-center justify-between gap-x-2 text-base">
+              <h3 className="my-2 inline-flex items-center justify-center gap-x-1 font-semibold leading-none">
+                {individualExperience.title}
+              </h3>
+              <div className="text-xs tabular-nums text-gray-700">
+                {individualExperience.start} - {individualExperience.end}
+              </div>
+            </div>
+
+            <a
+              className="text-sm leading-none hover:underline"
+              href={individualExperience.companyWebsite}
+            >
+              {individualExperience.company}
+            </a>
+          </CardHeader>
+          <CardContent className="mt-4 text-xs">
+            <ul className="list-disc pl-4">
+              {individualExperience.contributions.map((contribution) => (
+                <li className="pt-2" key={contribution}>
+                  {contribution}
+                </li>
+              ))}
+            </ul>
+          </CardContent>
+        </Card>
+      ))}
+    </Section>
+  );
+}

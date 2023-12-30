@@ -8,6 +8,15 @@ export interface ResumeSocialInfo {
   icon: ResumeIconLoader;
 }
 
+export interface ResumeExperience {
+  title: string;
+  company: string;
+  companyWebsite: string;
+  start: string;
+  end: string;
+  contributions: string[];
+}
+
 export type IResume = {
   name: string;
   initials: string;
@@ -19,4 +28,5 @@ export type IResume = {
   social: ResumeSocialInfo[];
   skills: string[];
   summaries: string[];
+  experience: ResumeExperience[];
 };
