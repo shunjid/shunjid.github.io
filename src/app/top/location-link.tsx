@@ -11,7 +11,7 @@ export default function LocationLink(
   const { location, locationLink } = props.data;
 
   return (
-    <p className="max-w-md items-center text-pretty font-mono text-xs text-muted-foreground">
+    <p className="max-w-md items-center text-pretty text-xs text-muted-foreground">
       <a
         className="inline-flex gap-x-1.5 align-baseline leading-none hover:underline"
         href={locationLink}

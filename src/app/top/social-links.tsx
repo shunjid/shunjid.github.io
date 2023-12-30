@@ -11,7 +11,7 @@ export default function SocialLinks(
   const socialPlatforms = props.data.social;
 
   return (
-    <div className="flex gap-x-1 pt-1 font-mono text-sm text-muted-foreground print:hidden">
+    <div className="flex gap-x-1 pt-1 text-sm text-muted-foreground print:hidden">
       {socialPlatforms.map((socialPlatform) => (
         <Button
           key={socialPlatform.name}
