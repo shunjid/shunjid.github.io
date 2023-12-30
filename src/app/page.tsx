@@ -1,8 +1,8 @@
 import { Metadata } from "next";
 
-import { CommandMenu } from "@/components/command-menu";
 import { resume } from "@/data";
 
+import Footer from "./footer";
 import Skills from "./skills";
 import Summary from "./summary";
 import Top from "./top";
@@ -21,18 +21,7 @@ export default function Page() {
         <Skills data={{ ...resume }} />
       </section>
 
-      <CommandMenu
-        links={[
-          {
-            url: resume.personalWebsiteUrl,
-            title: "Personal Website",
-          },
-          ...resume.social.map((socialMediaLink) => ({
-            url: socialMediaLink.url,
-            title: socialMediaLink.name,
-          })),
-        ]}
-      />
+      <Footer data={{ ...resume }} />
     </main>
   );
 }
