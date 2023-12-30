@@ -5,11 +5,11 @@ import { Metadata } from "next";
 import { Section } from "@/components/ui/section";
 import { GlobeIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { RESUME_DATA } from "@/data/resume-data";
+import { resume } from "@/data";
 
 export const metadata: Metadata = {
-  title: `${RESUME_DATA.name} | ${RESUME_DATA.about}`,
-  description: RESUME_DATA.summary,
+  title: `${resume.name}`,
+  description: resume.about,
 };
 
 export default function Page() {
@@ -18,23 +18,23 @@ export default function Page() {
       <section className="mx-auto w-full max-w-2xl space-y-8 bg-white print:space-y-6">
         <div className="flex items-center justify-between">
           <div className="flex-1 space-y-1.5">
-            <h1 className="text-2xl font-bold">{RESUME_DATA.name}</h1>
+            <h1 className="text-2xl font-bold">{resume.name}</h1>
             <p className="max-w-md text-pretty font-mono text-sm text-muted-foreground">
-              {RESUME_DATA.about}
+              {resume.about}
             </p>
             <p className="max-w-md items-center text-pretty font-mono text-xs text-muted-foreground">
               <a
                 className="inline-flex gap-x-1.5 align-baseline leading-none hover:underline"
-                href={RESUME_DATA.locationLink}
+                href={resume.locationLink}
                 target="_blank"
-                aria-label={RESUME_DATA.location}
+                aria-label={resume.location}
               >
                 <GlobeIcon className="h-3 w-3" />
-                {RESUME_DATA.location}
+                {resume.location}
               </a>
             </p>
             <div className="flex gap-x-1 pt-1 font-mono text-sm text-muted-foreground print:hidden">
-              {RESUME_DATA.contact.social.map((social) => (
+              {resume.social.map((social) => (
                 <Button
                   key={social.name}
                   className="h-8 w-8"
@@ -51,20 +51,20 @@ export default function Page() {
           </div>
 
           <Avatar className="h-28 w-28">
-            <AvatarImage alt={RESUME_DATA.name} src={RESUME_DATA.avatarUrl} />
-            <AvatarFallback>{RESUME_DATA.initials}</AvatarFallback>
+            <AvatarImage alt={resume.name} src={resume.avatarUrl} />
+            <AvatarFallback>{resume.initials}</AvatarFallback>
           </Avatar>
         </div>
         <Section>
           <h2 className="text-xl font-bold">About</h2>
           <p className="text-pretty font-mono text-sm text-muted-foreground">
-            {RESUME_DATA.summary}
+            {resume.summaries.join(" ")}
           </p>
         </Section>
         <Section>
           <h2 className="text-xl font-bold">Skills</h2>
           <div className="flex flex-wrap gap-1">
-            {RESUME_DATA.skills.map((skill) => {
+            {resume.skills.map((skill) => {
               return <Badge key={skill}>{skill}</Badge>;
             })}
           </div>
@@ -74,10 +74,10 @@ export default function Page() {
       <CommandMenu
         links={[
           {
-            url: RESUME_DATA.personalWebsiteUrl,
+            url: resume.personalWebsiteUrl,
             title: "Personal Website",
           },
-          ...RESUME_DATA.contact.social.map((socialMediaLink) => ({
+          ...resume.social.map((socialMediaLink) => ({
             url: socialMediaLink.url,
             title: socialMediaLink.name,
           })),
