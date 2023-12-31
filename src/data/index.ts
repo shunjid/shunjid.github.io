@@ -5,8 +5,9 @@ import { XIcon } from "@/components/icons/XIcon";
 import { IResume } from "./types";
 
 const summaries = [
-  "With over 3 years of dedicated expertise, I specialize in crafting robust APIs using technologies such as TypeScript, Express.js, Node.js, Nest.js, and Python with Flask.",
-  "My skill set extends to proficiently writing tests with Pytest, Mocha, Chai, Sinon, and Nock, demonstrating a commitment to ensuring the reliability and robustness of software solutions.",
+  "With over 3 years of expertise, I specialize in designing and developing robust software solutions.",
+  "My expertise includes collaborating with cross-functional teams, leading projects from concept to completion, and consistently delivering high-quality results.",
+  "From shaping technical blueprints to troubleshooting complex issues, I am committed to pushing the boundaries of technology.",
 ];
 
 const skills = [

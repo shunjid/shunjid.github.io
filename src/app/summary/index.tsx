@@ -13,7 +13,7 @@ export default function Summary(
   return (
     <Section>
       <h2 className="text-xl font-bold">About</h2>
-      <p className="text-pretty text-sm text-muted-foreground">
+      <p className="text-balance text-sm text-muted-foreground">
         {summaries.join(" ")}
       </p>
     </Section>
