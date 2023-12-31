@@ -47,12 +47,12 @@ const experience = [
     start: "2023 JAN",
     end: "CURRENT",
     contributions: [
-      "Collaborate with the product team to analyse opportunities and gaps of existing and new projects.",
-      "Write technical specifications by doing research on the product and architecture.",
-      "Find improvment opportunities of product and codebase by performing spikes",
-      "Migrate existing services to latest runtime and framework versions.",
-      "Design and develop public API endpoints, webhook events, upgrading existing ones.",
-      "Debug and solve bugs reported by solutions team and customers.",
+      "Collaborate with the product team to analyze opportunities and gaps in existing and new projects.",
+      "Create technical specifications through in-depth research on product and architecture.",
+      "Identify improvement opportunities for the product and codebase through thorough analysis and spikes.",
+      "Migrate existing services to the latest runtime and framework versions.",
+      "Design and develop public API endpoints and upgrade existing ones.",
+      "Debug and resolve bugs reported by the solutions team and customers.",
     ],
   },
   {
@@ -62,9 +62,9 @@ const experience = [
     start: "2022 JAN",
     end: "2022 DEC",
     contributions: [
-      "Design and develop public API endpoints, webhook events with unit tests and best practices.",
-      "Update existing public API endpoints and webhook events based on customer needs.",
-      "Debug and solve customer reported bugs.",
+      "Design and develop public API endpoints and webhook events with unit tests and adherence to best practices.",
+      "Update existing public API endpoints and webhook events based on customer requirements.",
+      "Debug and resolve customer-reported bugs.",
     ],
   },
   {
@@ -74,9 +74,9 @@ const experience = [
     start: "2021 OCT",
     end: "2021 DEC",
     contributions: [
-      "Create data analytics dashboard reports for product team to understand several metrics.",
+      "Create data analytics dashboard reports for the product team to understand various metrics.",
       "Update existing public API endpoints and webhook events based on customer needs.",
-      "Debug and solve customer reported bugs.",
+      "Debug and resolve customer-reported bugs.",
     ],
   },
   {
@@ -86,7 +86,7 @@ const experience = [
     start: "2021 MAY",
     end: "2021 SEPT",
     contributions: [
-      "Collaborate with a team of three interns to plan a configuration export/import system.",
+      "Collaborate as one of the interns in a team of three to plan a configuration export/import system.",
       "Develop the configuration export/import system with unit and integration tests.",
     ],
   },
@@ -98,9 +98,9 @@ const experience = [
     end: "2021 MAR",
     contributions: [
       "Lead a team of 5 Engineering students",
-      "Plan and develop a mobile app for the icddr,b (an international health research institute based in Bangladesh).",
-      "Work on integrating bKash payment gateway.",
-      "Collaborate with the doctors of icddr,b and bKash payment gateway team while building the software.",
+      "Plan and develop a mobile app for icddr,b, an international health research institute based in Bangladesh.",
+      "Integrate bKash payment gateway into the mobile app.",
+      "Collaborate with icddr,b doctors and the bKash payment gateway team during software development.",
     ],
   },
 ];
