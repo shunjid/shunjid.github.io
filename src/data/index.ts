@@ -49,11 +49,9 @@ const experience = [
     end: "CURRENT",
     contributions: [
       "Collaborate with the product team to analyze opportunities and gaps in existing and new projects.",
-      "Create technical specifications through in-depth research on product and architecture.",
-      "Identify improvement opportunities for the product and codebase through thorough analysis and spikes.",
+      "Create technical specifications through in-depth research on product and architecture and performing spikes.",
       "Migrate existing services to the latest runtime and framework versions.",
-      "Design and develop public API endpoints and upgrade existing ones.",
-      "Debug and resolve bugs reported by the solutions team and customers.",
+      "Build public API endpoints, webhook events and resolve customer reported bugs.",
     ],
   },
   {
@@ -98,10 +96,8 @@ const experience = [
     start: "2020 OCT",
     end: "2021 MAR",
     contributions: [
-      "Lead a team of 5 Engineering students",
-      "Plan and develop a mobile app for icddr,b, an international health research institute based in Bangladesh.",
-      "Integrate bKash payment gateway into the mobile app.",
-      "Collaborate with icddr,b doctors and the bKash payment gateway team during software development.",
+      "Lead a team of 5 Engineering students during a mobile app development using flutter.",
+      "Integrate bKash payment gateway into the mobile app developed for icddr,b.",
     ],
   },
 ];
