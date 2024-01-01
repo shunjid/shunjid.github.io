@@ -29,6 +29,7 @@ export default function Experience(
             <a
               className="text-sm leading-none hover:underline"
               href={individualExperience.companyWebsite}
+              aria-label={individualExperience.company}
             >
               {individualExperience.company}
             </a>
