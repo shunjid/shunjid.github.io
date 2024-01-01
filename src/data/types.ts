@@ -29,4 +29,5 @@ export type IResume = {
   skills: string[];
   summaries: string[];
   experience: ResumeExperience[];
+  achievements: string[];
 };
