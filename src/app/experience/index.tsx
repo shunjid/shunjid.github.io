@@ -30,6 +30,7 @@ export default function Experience(
               className="text-sm leading-none hover:underline"
               href={individualExperience.companyWebsite}
               aria-label={individualExperience.company}
+              target="_blank"
             >
               {individualExperience.company}
             </a>
