@@ -1,3 +1,4 @@
+import { CheckCircle2Icon } from "lucide-react";
 import React from "react";
 
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
@@ -13,7 +14,7 @@ export default function Experience(
 
   return (
     <Section>
-      <h2 className="text-xl font-bold">Work Experience</h2>
+      <h2 className="text-xl font-bold">Experience</h2>
       {experience.map((individualExperience) => (
         <Card key={1} className="bg-warning">
           <CardHeader>
@@ -36,10 +37,14 @@ export default function Experience(
             </a>
           </CardHeader>
           <CardContent className="mt-4 text-xs">
-            <ul className="list-disc pl-4">
+            <ul className="space-y-2 text-left text-gray-500 dark:text-gray-400">
               {individualExperience.contributions.map((contribution) => (
-                <li className="pt-2" key={contribution}>
-                  {contribution}
+                <li
+                  key={contribution}
+                  className="flex items-center space-x-3 text-xs rtl:space-x-reverse"
+                >
+                  <CheckCircle2Icon className="h-2.5 w-2.5 flex-shrink-0 text-sky-600" />
+                  <span>{contribution}</span>
                 </li>
               ))}
             </ul>
