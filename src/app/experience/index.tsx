@@ -1,4 +1,4 @@
-import { CheckCircle2Icon } from "lucide-react";
+import { ArrowBigRightDashIcon } from "lucide-react";
 import React from "react";
 
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
@@ -19,9 +19,9 @@ export default function Experience(
         <Card key={1} className="bg-warning">
           <CardHeader>
             <div className="flex items-center justify-between gap-x-2 text-base">
-              <h3 className="my-2 inline-flex items-center justify-center gap-x-1 font-semibold leading-none">
+              <h4 className="my-2 inline-flex items-center justify-center gap-x-1 font-semibold leading-none">
                 {individualExperience.title}
-              </h3>
+              </h4>
               <div className="text-xs tabular-nums text-gray-700">
                 {individualExperience.start} - {individualExperience.end}
               </div>
@@ -43,7 +43,7 @@ export default function Experience(
                   key={contribution}
                   className="flex items-center space-x-3 text-xs rtl:space-x-reverse"
                 >
-                  <CheckCircle2Icon className="h-2.5 w-2.5 flex-shrink-0 text-sky-600" />
+                  <ArrowBigRightDashIcon className="h-2.5 w-2.5 flex-shrink-0 text-teal-600" />
                   <span>{contribution}</span>
                 </li>
               ))}
