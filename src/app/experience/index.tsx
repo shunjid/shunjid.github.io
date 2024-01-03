@@ -43,7 +43,7 @@ export default function Experience(
                   key={contribution}
                   className="flex items-center space-x-3 text-xs rtl:space-x-reverse"
                 >
-                  <ArrowBigRightDashIcon className="h-2.5 w-2.5 flex-shrink-0 text-teal-600" />
+                  <ArrowBigRightDashIcon className="h-2.5 w-2.5 flex-shrink-0 text-blue-600" />
                   <span>{contribution}</span>
                 </li>
               ))}
