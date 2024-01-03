@@ -21,7 +21,7 @@ export default function Achievements(
             className="flex items-center space-x-3 text-xs rtl:space-x-reverse"
           >
             <TrophyIcon className="h-2.5 w-2.5 flex-shrink-0 text-teal-600" />
-            {achievement()}
+            <div className="text-justify leading-relaxed">{achievement()}</div>
           </li>
         ))}
       </ul>

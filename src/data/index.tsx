@@ -136,6 +136,45 @@ const achievements = [
       ultimately earned us the title of &apos;Runner-up&apos;.
     </div>
   ),
+  () => (
+    <div>
+      <b>4th, 2020 Microsoft AI Gaming, Code-A-Bot: </b>
+      Microsoft Student Partners (Mumbai) organized an international programming
+      tournament where the challenge was to code a bot using Python and Azure
+      Cognitive Services API. Competing against talented participants from
+      around the world, I made it to the final round and secured the 4th
+      position.
+    </div>
+  ),
+  () => (
+    <div>
+      <b>Challenge Conqueror, 2019 Grameenphone API Hackathon: </b>
+      Our team was selected as one of the top 20 teams among hundreds of
+      applicants from all over the country for the final round of the
+      competition. The challenge was to integrate a software&apos;s premium
+      subscription billing with Grameenphone&apos;s Direct Operator Billing API.
+      We were among the top teams who successfully accomplished this task and
+      received certification.
+    </div>
+  ),
+  () => (
+    <div>
+      <b>2019, Student of the Summer Semester: </b>
+      Received an award in recognition of my outstanding academic performance
+      during the summer of 2019, under the Department of Software Engineering at
+      Daffodil International University.
+    </div>
+  ),
+  () => (
+    <div>
+      <b>Champion, Software Project Fair: </b>
+      Under the mentorship of Md. Anwar Hossen, Assistant Professor, Department
+      of SWE, Daffodil International University, our team was awarded the
+      prestigious title of champions in the Web Project category for our
+      exceptional work on &apos;Routine Explorer and Analytical
+      Intelligence&apos; project.
+    </div>
+  ),
 ];
 
 const resume: IResume = {
