@@ -17,11 +17,11 @@ export default function Achievements(
       <ul className="space-y-4 text-left text-gray-500 dark:text-gray-400">
         {achievements.map((achievement) => (
           <li
-            key={achievement}
+            key={achievement.toString()}
             className="flex items-center space-x-3 text-xs rtl:space-x-reverse"
           >
             <TrophyIcon className="h-2.5 w-2.5 flex-shrink-0 text-teal-600" />
-            <span dangerouslySetInnerHTML={{ __html: achievement }}></span>
+            {achievement()}
           </li>
         ))}
       </ul>

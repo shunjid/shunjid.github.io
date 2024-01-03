@@ -102,14 +102,40 @@ const experience = [
   },
 ];
 
-const achievements: string[] = [
-  `<b>2023 Q3, Optimizely Spot Award: </b> Received monthly spot award with an appreciation message from a Software Engineering Manager saying,
-  <i>"Shunjid is one of the most accomplished engineers on our team. His consistent track record of delivering tasks with exceptional quality in 
-  recent SPRINTs is truly commendable. He is always humble & open for suggestions, helped others to improve & produced high quality of works."</i>
-  `,
-  `<b>2023 Q1, Optimizely Spot Award: </b> Received monthly spot award with an appreciation message from the team lead saying, 
-  <i>"Shunjid always tries to learn new things and apply the knowledge in his regular contributions to make our life easier. 
-  He has built trust and is always showing great responsibilities for his work."</i>`,
+const achievements = [
+  () => (
+    <div>
+      <b>2023 Q3, Optimizely Spot Award: </b> Received monthly spot award with
+      an appreciation message from a Software Engineering Manager saying,
+      <i>
+        &quot;Shunjid is one of the most accomplished engineers on our team. His
+        consistent track record of delivering tasks with exceptional quality in
+        recent SPRINTs is truly commendable. He is always humble & open for
+        suggestions, helped others to improve & produced high quality of
+        works.&quot;
+      </i>
+    </div>
+  ),
+  () => (
+    <div>
+      <b>2023 Q1, Optimizely Spot Award: </b> Received monthly spot award with
+      an appreciation message from the team lead saying,
+      <i>
+        &quot;Shunjid always tries to learn new things and apply the knowledge
+        in his regular contributions to make our life easier. He has built trust
+        and is always showing great responsibilities for his work.&quot;
+      </i>
+    </div>
+  ),
+  () => (
+    <div>
+      <b>2nd, 2020 International Flutter Hackathon: </b>I had the privilege of
+      leading a team of 5 talented Software Engineering students in the highly
+      competitive International Flutter Hackathon 2020. Together, we developed
+      mobile application using a cutting-edge technology Flutter, which
+      ultimately earned us the title of &apos;Runner-up&apos;.
+    </div>
+  ),
 ];
 
 const resume: IResume = {
