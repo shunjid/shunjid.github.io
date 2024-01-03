@@ -105,8 +105,11 @@ const experience = [
 const achievements = [
   () => (
     <div>
-      <b>2023 Q3, Optimizely Spot Award: </b> Received monthly spot award with
-      an appreciation message from a Software Engineering Manager saying,
+      <span className="text-blue-700 underline decoration-dotted">
+        2023 Q3, Optimizely Spot Award:
+      </span>{" "}
+      Received monthly spot award with an appreciation message from a Software
+      Engineering Manager saying,
       <i>
         &quot;Shunjid is one of the most accomplished engineers on our team. His
         consistent track record of delivering tasks with exceptional quality in
@@ -118,8 +121,11 @@ const achievements = [
   ),
   () => (
     <div>
-      <b>2023 Q1, Optimizely Spot Award: </b> Received monthly spot award with
-      an appreciation message from the team lead saying,
+      <span className="text-blue-700 underline decoration-dotted">
+        2023 Q1, Optimizely Spot Award:{" "}
+      </span>
+      Received monthly spot award with an appreciation message from the team
+      lead saying,
       <i>
         &quot;Shunjid always tries to learn new things and apply the knowledge
         in his regular contributions to make our life easier. He has built trust
@@ -129,16 +135,20 @@ const achievements = [
   ),
   () => (
     <div>
-      <b>2nd, 2020 International Flutter Hackathon: </b>I had the privilege of
-      leading a team of 5 talented Software Engineering students in the highly
-      competitive International Flutter Hackathon 2020. Together, we developed
-      mobile application using a cutting-edge technology Flutter, which
-      ultimately earned us the title of &apos;Runner-up&apos;.
+      <span className="text-blue-700 underline decoration-dotted">
+        2nd, 2020 International Flutter Hackathon:{" "}
+      </span>
+      I had the privilege of leading a team of 5 talented Software Engineering
+      students in the highly competitive International Flutter Hackathon 2020.
+      Together, we developed mobile application using a cutting-edge technology
+      Flutter, which ultimately earned us the title of &apos;Runner-up&apos;.
     </div>
   ),
   () => (
     <div>
-      <b>4th, 2020 Microsoft AI Gaming, Code-A-Bot: </b>
+      <span className="text-blue-700 underline decoration-dotted">
+        4th, 2020 Microsoft AI Gaming, Code-A-Bot:{" "}
+      </span>
       Microsoft Student Partners (Mumbai) organized an international programming
       tournament where the challenge was to code a bot using Python and Azure
       Cognitive Services API. Competing against talented participants from
@@ -148,7 +158,9 @@ const achievements = [
   ),
   () => (
     <div>
-      <b>Challenge Conqueror, 2019 Grameenphone API Hackathon: </b>
+      <span className="text-blue-700 underline decoration-dotted">
+        Challenge Conqueror, 2019 Grameenphone API Hackathon:{" "}
+      </span>
       Our team was selected as one of the top 20 teams among hundreds of
       applicants from all over the country for the final round of the
       competition. The challenge was to integrate a software&apos;s premium
@@ -159,7 +171,9 @@ const achievements = [
   ),
   () => (
     <div>
-      <b>2019, Student of the Summer Semester: </b>
+      <span className="text-blue-700 underline decoration-dotted">
+        2019, Student of the Summer Semester:{" "}
+      </span>
       Received an award in recognition of my outstanding academic performance
       during the summer of 2019, under the Department of Software Engineering at
       Daffodil International University.
@@ -167,12 +181,33 @@ const achievements = [
   ),
   () => (
     <div>
-      <b>Champion, Software Project Fair: </b>
+      <span className="text-blue-700 underline decoration-dotted">
+        Champion, Software Project Fair:{" "}
+      </span>
       Under the mentorship of Md. Anwar Hossen, Assistant Professor, Department
       of SWE, Daffodil International University, our team was awarded the
       prestigious title of champions in the Web Project category for our
       exceptional work on &apos;Routine Explorer and Analytical
       Intelligence&apos; project.
+    </div>
+  ),
+  () => (
+    <div>
+      <span className="text-blue-700 underline decoration-dotted">
+        2014 Felicitation for S.S.C Exam Result:{" "}
+      </span>
+      Received a medal and a certificate from the{" "}
+      <a
+        href="https://en.wikipedia.org/wiki/Sheikh_Hasina"
+        className="font-semibold hover:underline"
+        aria-label="Honorable Prime Minister of Bangladesh Sheikh Hasina"
+        target="_blank"
+      >
+        Honorable Prime Minister of Bangladesh Sheikh Hasina
+      </a>{" "}
+      for outstanding performance in the Secondary School Certificate
+      examination. The event was organized by Sheikh Russel Jatiyo Shishu
+      Kishore Parishad.
     </div>
   ),
 ];
