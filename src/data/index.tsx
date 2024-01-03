@@ -212,6 +212,35 @@ const achievements = [
   ),
 ];
 
+const educations = [
+  {
+    institution: "Daffodil International University",
+    year: "2017 - 2021",
+    description: `
+        During my Bachelor of Science in <b>Software Engineering</b>, I was able
+        to maintain a consistent academic record and achieved a remarkable
+        C.G.P.A of <b>3.99</b> out of 4.00. In recognition of my academic
+        excellence, I was awarded result based scholarships in 10 out of
+        12 trimesters of my program.
+    `,
+  },
+  {
+    institution: "Dhaka City College",
+    year: "2014 - 2016",
+    description: `
+        I achieved a Grade Point Average of <b>5.00</b> out of 5.00 in the Higher Secondary School Certificate board examination.
+    `,
+  },
+  {
+    institution: "A.K. High School",
+    year: "2009 - 2014",
+    description: `
+    I earned a Grade Point Average of <b>5.00</b> out of 5.00 in both the Secondary School Certificate and Junior School 
+    Certificate board examinations.
+    `,
+  },
+];
+
 const resume: IResume = {
   name: "Shunjid Rahman Showrov",
   initials: "SRS",
@@ -225,6 +254,7 @@ const resume: IResume = {
   social,
   experience,
   achievements,
+  educations,
 };
 
 export { resume };

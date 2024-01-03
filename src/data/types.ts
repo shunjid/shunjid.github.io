@@ -19,6 +19,12 @@ export interface ResumeExperience {
   contributions: string[];
 }
 
+export interface ResumeEducation {
+  institution: string;
+  year: string;
+  description: string;
+}
+
 export type IResume = {
   name: string;
   initials: string;
@@ -32,4 +38,5 @@ export type IResume = {
   summaries: string[];
   experience: ResumeExperience[];
   achievements: ResumeAchievementLoader[];
+  educations: ResumeEducation[];
 };

@@ -3,6 +3,7 @@ import { Metadata } from "next";
 import { resume } from "@/data";
 
 import Achievements from "./achievements";
+import Education from "./education";
 import Experience from "./experience";
 import Footer from "./footer";
 import Skills from "./skills";
@@ -22,6 +23,7 @@ export default function Page() {
         <Summary data={{ ...resume }} />
         <Experience data={{ ...resume }} />
         <Achievements data={{ ...resume }} />
+        <Education data={{ ...resume }} />
         <Skills data={{ ...resume }} />
       </section>
 
