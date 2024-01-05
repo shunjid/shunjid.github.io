@@ -1,4 +1,22 @@
-import { ArrowBigRightDashIcon } from "lucide-react";
+import {
+  ArrowBigRightDashIcon,
+  CheckIcon,
+  ChevronsRightIcon,
+  CircleDashedIcon,
+  CircleDotDashedIcon,
+  CircleDotIcon,
+  CircleEqualIcon,
+  CircleOffIcon,
+  CircleSlash2Icon,
+  Code2Icon,
+  CornerDownRightIcon,
+  Disc3Icon,
+  DiscAlbumIcon,
+  DotIcon,
+  PenIcon,
+  PointerIcon,
+  WorkflowIcon,
+} from "lucide-react";
 import React from "react";
 
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
@@ -37,14 +55,10 @@ export default function Experience(
             </a>
           </CardHeader>
           <CardContent className="mt-4 text-xs">
-            <ul className="space-y-2 text-left text-gray-500 dark:text-gray-400">
+            <ul className="list-inside list-disc space-y-2 text-left text-blue-500 dark:text-gray-400">
               {individualExperience.contributions.map((contribution) => (
-                <li
-                  key={contribution}
-                  className="flex items-center space-x-3 text-xs rtl:space-x-reverse"
-                >
-                  <ArrowBigRightDashIcon className="h-2.5 w-2.5 flex-shrink-0 text-blue-600" />
-                  <span>{contribution}</span>
+                <li key={contribution}>
+                  <span className="text-gray-500">{contribution}</span>
                 </li>
               ))}
             </ul>

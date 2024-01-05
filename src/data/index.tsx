@@ -102,10 +102,12 @@ const experience = [
   },
 ];
 
+const achievementsHeaderClass = "text-blue-900 font-semibold";
+
 const achievements = [
   () => (
     <div>
-      <span className="text-blue-700 underline decoration-dotted">
+      <span className={achievementsHeaderClass}>
         2023 Q3, Optimizely Spot Award:
       </span>{" "}
       Received monthly spot award with an appreciation message from a Software
@@ -121,7 +123,7 @@ const achievements = [
   ),
   () => (
     <div>
-      <span className="text-blue-700 underline decoration-dotted">
+      <span className={achievementsHeaderClass}>
         2023 Q1, Optimizely Spot Award:{" "}
       </span>
       Received monthly spot award with an appreciation message from the team
@@ -135,7 +137,7 @@ const achievements = [
   ),
   () => (
     <div>
-      <span className="text-blue-700 underline decoration-dotted">
+      <span className={achievementsHeaderClass}>
         2nd, 2020 International Flutter Hackathon:{" "}
       </span>
       I had the privilege of leading a team of 5 talented Software Engineering
@@ -146,7 +148,7 @@ const achievements = [
   ),
   () => (
     <div>
-      <span className="text-blue-700 underline decoration-dotted">
+      <span className={achievementsHeaderClass}>
         4th, 2020 Microsoft AI Gaming, Code-A-Bot:{" "}
       </span>
       Microsoft Student Partners (Mumbai) organized an international programming
@@ -158,7 +160,7 @@ const achievements = [
   ),
   () => (
     <div>
-      <span className="text-blue-700 underline decoration-dotted">
+      <span className={achievementsHeaderClass}>
         Challenge Conqueror, 2019 Grameenphone API Hackathon:{" "}
       </span>
       Our team was selected as one of the top 20 teams among hundreds of
@@ -171,7 +173,7 @@ const achievements = [
   ),
   () => (
     <div>
-      <span className="text-blue-700 underline decoration-dotted">
+      <span className={achievementsHeaderClass}>
         2019, Student of the Summer Semester:{" "}
       </span>
       Received an award in recognition of my outstanding academic performance
@@ -181,7 +183,7 @@ const achievements = [
   ),
   () => (
     <div>
-      <span className="text-blue-700 underline decoration-dotted">
+      <span className={achievementsHeaderClass}>
         Champion, Software Project Fair:{" "}
       </span>
       Under the mentorship of Md. Anwar Hossen, Assistant Professor, Department
@@ -193,7 +195,7 @@ const achievements = [
   ),
   () => (
     <div>
-      <span className="text-blue-700 underline decoration-dotted">
+      <span className={achievementsHeaderClass}>
         2014 Felicitation for S.S.C Exam Result:{" "}
       </span>
       Received a medal and a certificate from the{" "}

@@ -1,4 +1,4 @@
-import { CheckCircle2Icon, MedalIcon, TrophyIcon } from "lucide-react";
+import { TrophyIcon } from "lucide-react";
 import React from "react";
 
 import { Section } from "@/components/ui/section";
@@ -20,7 +20,7 @@ export default function Achievements(
             key={achievement.toString()}
             className="flex items-center space-x-3 text-xs rtl:space-x-reverse"
           >
-            <TrophyIcon className="h-2.5 w-2.5 flex-shrink-0 text-blue-600" />
+            <TrophyIcon className="h-2.5 w-2.5 flex-shrink-0 font-bold text-blue-500" />
             <div className="text-justify leading-relaxed">{achievement()}</div>
           </li>
         ))}
