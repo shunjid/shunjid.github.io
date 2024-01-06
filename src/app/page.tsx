@@ -11,8 +11,26 @@ import Summary from "./summary";
 import Top from "./top";
 
 export const metadata: Metadata = {
-  title: `${resume.name}`,
+  metadataBase: new URL("http://localhost:3611"),
+  title: resume.name,
   description: resume.about,
+  openGraph: {
+    title: resume.name,
+    description: resume.about,
+    images: "https://images2.imgbox.com/aa/f3/E3kW6oXS_o.png",
+  },
+  keywords: [
+    "shunjid",
+    "shunjid showrov",
+    "srs",
+    "shunjid rahman",
+    "showrov",
+    "সানজিদ",
+    "সানজিদ রহমান সৌরভ",
+    "সৌরভ",
+    "সানজিদ রহমান",
+    "সানজিদ সৌরভ",
+  ],
 };
 
 export default function Page() {
