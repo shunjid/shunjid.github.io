@@ -1,22 +1,3 @@
-import {
-  ArrowBigRightDashIcon,
-  CheckIcon,
-  ChevronsRightIcon,
-  CircleDashedIcon,
-  CircleDotDashedIcon,
-  CircleDotIcon,
-  CircleEqualIcon,
-  CircleOffIcon,
-  CircleSlash2Icon,
-  Code2Icon,
-  CornerDownRightIcon,
-  Disc3Icon,
-  DiscAlbumIcon,
-  DotIcon,
-  PenIcon,
-  PointerIcon,
-  WorkflowIcon,
-} from "lucide-react";
 import React from "react";
 
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
