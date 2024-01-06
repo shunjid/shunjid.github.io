@@ -11,17 +11,19 @@ export default function Footer(
   const { personalWebsiteUrl, social } = props.data;
 
   return (
-    <CommandMenu
-      links={[
-        {
-          url: personalWebsiteUrl,
-          title: "Personal Website",
-        },
-        ...social.map((socialMeta) => ({
-          url: socialMeta.url,
-          title: socialMeta.name,
-        })),
-      ]}
-    />
+    <div className="hidden lg:block">
+      <CommandMenu
+        links={[
+          {
+            url: personalWebsiteUrl,
+            title: "Personal Website",
+          },
+          ...social.map((socialMeta) => ({
+            url: socialMeta.url,
+            title: socialMeta.name,
+          })),
+        ]}
+      />
+    </div>
   );
 }
