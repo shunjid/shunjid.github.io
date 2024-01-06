@@ -1,3 +1,21 @@
+import {
+  SiDocker,
+  SiExpress,
+  SiFlask,
+  SiJest,
+  SiMongodb,
+  SiMysql,
+  SiNestjs,
+  SiNextdotjs,
+  SiNuxtdotjs,
+  SiPytest,
+  SiPython,
+  SiReact,
+  SiTypescript,
+  SiVuedotjs,
+  SiVuetify,
+} from "react-icons/si";
+
 import { GitHubIcon } from "@/components/icons/GitHubIcon";
 import { LinkedInIcon } from "@/components/icons/LinkedInIcon";
 import { XIcon } from "@/components/icons/XIcon";
@@ -11,15 +29,81 @@ const summaries = [
 ];
 
 const skills = [
-  "TypeScript",
-  "Python",
-  "Express",
-  "Nest.js",
-  "Flask",
-  "Jest",
-  "Pytest",
-  "MongoDB",
-  "MySQL",
+  {
+    title: "TypeScript",
+    icon: SiTypescript,
+    color: "bg-blue-200",
+  },
+  {
+    title: "Python",
+    icon: SiPython,
+    color: "bg-yellow-100",
+  },
+  {
+    title: "Express",
+    icon: SiExpress,
+    color: "bg-gray-100",
+  },
+  {
+    title: "React.js",
+    icon: SiReact,
+    color: "bg-sky-100",
+  },
+  {
+    title: "Next.js",
+    icon: SiNextdotjs,
+    color: "bg-gray-100",
+  },
+  {
+    title: "Vue.js",
+    icon: SiVuedotjs,
+    color: "bg-emerald-100",
+  },
+  {
+    title: "Vuetify",
+    icon: SiVuetify,
+    color: "bg-sky-100",
+  },
+  {
+    title: "Nuxt.js",
+    icon: SiNuxtdotjs,
+    color: "bg-emerald-100",
+  },
+  {
+    title: "Nest.js",
+    icon: SiNestjs,
+    color: "bg-rose-100",
+  },
+  {
+    title: "Flask",
+    icon: SiFlask,
+    color: "bg-sky-100",
+  },
+  {
+    title: "Jest",
+    icon: SiJest,
+    color: "bg-red-100",
+  },
+  {
+    title: "Pytest",
+    icon: SiPytest,
+    color: "bg-sky-100",
+  },
+  {
+    title: "MongoDB",
+    icon: SiMongodb,
+    color: "bg-green-100",
+  },
+  {
+    title: "MySQL",
+    icon: SiMysql,
+    color: "bg-indigo-100",
+  },
+  {
+    title: "Docker",
+    icon: SiDocker,
+    color: "bg-sky-200",
+  },
 ];
 
 const social = [

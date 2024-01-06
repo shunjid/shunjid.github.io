@@ -23,8 +23,8 @@ export default function Page() {
         <Summary data={{ ...resume }} />
         <Experience data={{ ...resume }} />
         <Achievements data={{ ...resume }} />
-        <Education data={{ ...resume }} />
         <Skills data={{ ...resume }} />
+        <Education data={{ ...resume }} />
       </section>
 
       <Footer data={{ ...resume }} />

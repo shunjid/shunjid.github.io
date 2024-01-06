@@ -1,3 +1,5 @@
+import { IconType } from "react-icons";
+
 export type ResumeIconLoader = (
   props: React.SVGProps<SVGSVGElement>,
 ) => React.JSX.Element;
@@ -25,6 +27,12 @@ export interface ResumeEducation {
   description: string;
 }
 
+export interface ResumeSkill {
+  icon: IconType;
+  title: string;
+  color: string;
+}
+
 export type IResume = {
   name: string;
   initials: string;
@@ -34,7 +42,7 @@ export type IResume = {
   avatarUrl: string;
   personalWebsiteUrl: string;
   social: ResumeSocialInfo[];
-  skills: string[];
+  skills: ResumeSkill[];
   summaries: string[];
   experience: ResumeExperience[];
   achievements: ResumeAchievementLoader[];
