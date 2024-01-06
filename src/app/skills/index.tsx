@@ -1,5 +1,4 @@
 import React from "react";
-import { SiMongodb } from "react-icons/si";
 
 import { Section } from "@/components/ui/section";
 import { IResume } from "@/data/types";
