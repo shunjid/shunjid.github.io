@@ -18,9 +18,9 @@ export default function Education(
         <Card key={1} className="bg-warning">
           <CardHeader>
             <div className="flex items-center justify-between gap-x-2 text-base">
-              <h4 className="my-2 inline-flex items-center justify-center gap-x-1 font-semibold leading-none">
+              <span className="my-2 inline-flex items-center justify-center gap-x-1 font-semibold leading-none">
                 {education.degree}
-              </h4>
+              </span>
               <div className="text-xs tabular-nums text-gray-700">
                 {education.start} - {education.end}
               </div>

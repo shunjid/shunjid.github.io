@@ -18,9 +18,9 @@ export default function Experience(
         <Card key={1} className="bg-warning">
           <CardHeader>
             <div className="flex items-center justify-between gap-x-2 text-base">
-              <h4 className="my-2 inline-flex items-center justify-center gap-x-1 font-semibold leading-none">
+              <span className="my-2 inline-flex items-center justify-center gap-x-1 font-semibold leading-none">
                 {individualExperience.title}
-              </h4>
+              </span>
               <div className="text-xs tabular-nums text-gray-700">
                 {individualExperience.start} - {individualExperience.end}
               </div>
