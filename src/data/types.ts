@@ -23,8 +23,14 @@ export interface ResumeExperience {
 
 export interface ResumeEducation {
   institution: string;
-  year: string;
-  description: string;
+  start: string;
+  end: string;
+  degree: string;
+  website: string;
+  descriptionList: {
+    title?: string;
+    text: string;
+  }[];
 }
 
 export interface ResumeSkill {

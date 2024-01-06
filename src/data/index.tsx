@@ -301,29 +301,54 @@ const achievements = [
 const educations = [
   {
     institution: "Daffodil International University",
-    year: "2017 - 2021",
-    description: `
-        During my Bachelor of Science in <b>Software Engineering</b>, I was able
-        to maintain a consistent academic record and achieved a remarkable
-        C.G.P.A of <b>3.99</b> out of 4.00. In recognition of my academic
-        excellence, I was awarded result based scholarships in 10 out of
-        12 trimesters of my program.
-    `,
+    degree: "Bachelor of Science in Software Engineering",
+    start: "2017",
+    end: "2021",
+    website: "https://diu.edu.bd",
+    descriptionList: [
+      {
+        title: "Cumulative Grade Point Average",
+        text: "3.99 / 4.00",
+      },
+      {
+        title: "Credit Hours:",
+        text: "139 / 139",
+      },
+      {
+        title: "Result Based Scholarships:",
+        text: "10",
+      },
+      {
+        title: "Training:",
+        text: "1 month training program by Dongeso University, South Korea.",
+      },
+    ],
   },
   {
     institution: "Dhaka City College",
-    year: "2014 - 2016",
-    description: `
-        I achieved a Grade Point Average of <b>5.00</b> out of 5.00 in the Higher Secondary School Certificate board examination.
-    `,
+    degree: "Higher Secondary School Certificate",
+    start: "2014",
+    end: "2016",
+    website: "https://www.dhakacitycollege.edu.bd/",
+    descriptionList: [
+      {
+        title: "Grade Point Average",
+        text: "5.00 / 5.00",
+      },
+    ],
   },
   {
     institution: "A.K. High School",
-    year: "2009 - 2014",
-    description: `
-    I earned a Grade Point Average of <b>5.00</b> out of 5.00 in both the Secondary School Certificate and Junior School 
-    Certificate board examinations.
-    `,
+    degree: "Secondary School Certificate",
+    start: "2009",
+    end: "2014",
+    website: "https://akschoolandcollege.edu.bd/",
+    descriptionList: [
+      {
+        title: "Grade Point Average",
+        text: "5.00 / 5.00",
+      },
+    ],
   },
 ];
 

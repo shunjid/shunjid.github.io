@@ -1,5 +1,6 @@
 import React from "react";
 
+import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { Section } from "@/components/ui/section";
 import { IResume } from "@/data/types";
 
@@ -14,23 +15,46 @@ export default function Education(
     <Section>
       <h2 className="text-xl font-bold">Education</h2>
       {educations.map((education) => (
-        <div
-          key={education.institution}
-          className="block w-full rounded-lg bg-white text-left"
-        >
-          <div>
-            <h5 className="mb-1 text-sm font-medium leading-tight text-neutral-800 dark:text-neutral-50">
+        <Card key={1} className="bg-warning">
+          <CardHeader>
+            <div className="flex items-center justify-between gap-x-2 text-base">
+              <h4 className="my-2 inline-flex items-center justify-center gap-x-1 font-semibold leading-none">
+                {education.degree}
+              </h4>
+              <div className="text-xs tabular-nums text-gray-700">
+                {education.start} - {education.end}
+              </div>
+            </div>
+
+            <a
+              className="text-sm leading-none hover:underline"
+              href={education.website}
+              aria-label={education.institution}
+              target="_blank"
+            >
               {education.institution}
-            </h5>
-            <h6 className="my-2 text-xs font-medium leading-tight text-neutral-500 dark:text-neutral-50">
-              {education.year}
-            </h6>
-            <p
-              className="text-justify text-xs leading-relaxed text-muted-foreground"
-              dangerouslySetInnerHTML={{ __html: education.description }}
-            ></p>
-          </div>
-        </div>
+            </a>
+          </CardHeader>
+          <CardContent className="mt-4 text-xs">
+            <ul className="list-inside list-disc space-y-2 text-left text-blue-500 dark:text-gray-400">
+              {education.descriptionList.map((description) => (
+                <li key={description.text}>
+                  <span className="text-gray-500">
+                    {description.title ? (
+                      <span className="underline decoration-dotted">
+                        {description.title}
+                      </span>
+                    ) : (
+                      <></>
+                    )}
+                    {": "}
+                    {description.text}
+                  </span>
+                </li>
+              ))}
+            </ul>
+          </CardContent>
+        </Card>
       ))}
     </Section>
   );
