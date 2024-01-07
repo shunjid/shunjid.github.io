@@ -301,7 +301,7 @@ const achievements = [
 const educations = [
   {
     institution: "Daffodil International University",
-    degree: "Bachelor of Science in Software Engineering",
+    degree: "B.Sc. in Software Engineering",
     start: "2017",
     end: "2021",
     website: "https://diu.edu.bd",
