@@ -35,7 +35,7 @@ export default function Experience(
               {individualExperience.company}
             </a>
           </CardHeader>
-          <CardContent className="mt-4 text-xs">
+          <CardContent className="mt-4 text-xs font-medium">
             <ul className="list-inside list-disc space-y-2 text-left text-blue-500 dark:text-gray-400">
               {individualExperience.contributions.map((contribution) => (
                 <li key={contribution}>

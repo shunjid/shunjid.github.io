@@ -17,7 +17,7 @@ export default function Top(
       <div className="flex-1 space-y-1.5">
         {/* Name and about */}
         <h1 className="text-2xl font-bold">{name}</h1>
-        <p className="max-w-md text-pretty text-sm text-muted-foreground">
+        <p className="max-w-md text-pretty text-sm font-medium text-muted-foreground">
           {about}
         </p>
 

@@ -14,7 +14,7 @@ export default function Achievements(
   return (
     <Section>
       <h2 className="text-xl font-bold">Achievements</h2>
-      <ul className="space-y-4 text-left text-gray-500 dark:text-gray-400">
+      <ul className="space-y-4 text-left font-medium text-gray-500 dark:text-gray-400">
         {achievements.map((achievement) => (
           <li
             key={achievement.toString()}
