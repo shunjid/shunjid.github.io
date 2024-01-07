@@ -38,7 +38,7 @@ export default function Education(
           <CardContent className="mt-4 text-xs">
             <ul className="list-inside list-disc space-y-2 text-left font-medium text-blue-500 dark:text-gray-400">
               {education.descriptionList.map((description) => (
-                <li key={description.text}>
+                <li key={description.title}>
                   <span className="text-gray-500">
                     {description.title ? (
                       <span className="font-bold">{description.title}</span>
