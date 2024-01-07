@@ -5,7 +5,6 @@ import { resume } from "@/data";
 import Achievements from "./achievements";
 import Education from "./education";
 import Experience from "./experience";
-import Footer from "./footer";
 import Skills from "./skills";
 import Summary from "./summary";
 import Top from "./top";
@@ -53,8 +52,6 @@ export default function Page() {
         <Skills data={{ ...resume }} />
         <Education data={{ ...resume }} />
       </section>
-
-      <Footer data={{ ...resume }} />
     </main>
   );
 }
