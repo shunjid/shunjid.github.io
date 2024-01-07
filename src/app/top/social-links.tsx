@@ -15,7 +15,7 @@ export default function SocialLinks(
       {socialPlatforms.map((socialPlatform) => (
         <Button
           key={socialPlatform.name}
-          className="h-8 w-8"
+          className="h-8 w-8 hover:bg-black hover:text-white"
           variant="outline"
           size="icon"
           asChild
