@@ -311,15 +311,15 @@ const educations = [
         text: "3.99 / 4.00",
       },
       {
-        title: "Credit Hours:",
+        title: "Credit Hours",
         text: "139 / 139",
       },
       {
-        title: "Result Based Scholarships:",
-        text: "10",
+        title: "Result Based Scholarships",
+        text: "10 / 12 (Trimesters)",
       },
       {
-        title: "Training:",
+        title: "Training",
         text: "1 month training program by Dongeso University, South Korea.",
       },
     ],
@@ -345,7 +345,11 @@ const educations = [
     website: "https://akschoolandcollege.edu.bd/",
     descriptionList: [
       {
-        title: "Grade Point Average",
+        title: "Grade Point Average (S.S.C)",
+        text: "5.00 / 5.00",
+      },
+      {
+        title: "Grade Point Average (J.S.C)",
         text: "5.00 / 5.00",
       },
     ],
