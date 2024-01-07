@@ -1,4 +1,4 @@
-# :octocat: shunjid.github.io
+# [shunjid.github.io](https://shunjid.github.io)
 
 This is my resume structured developer portfolio website developed using TypeScript, Next.js, TailwindCSS, and ShadCN. To run this locally:
 
