@@ -1,4 +1,4 @@
-import { Metadata } from "next";
+import { Metadata, Viewport } from "next";
 
 import { resume } from "@/data";
 
@@ -31,6 +31,15 @@ export const metadata: Metadata = {
     "সানজিদ রহমান",
     "সানজিদ সৌরভ",
   ],
+  icons: {
+    icon: ["/favicon.ico?v=4"],
+    apple: ["/apple-icon.png?v=4"],
+    shortcut: ["/apple-icon.png"],
+  },
+};
+
+export const viewport: Viewport = {
+  themeColor: "#512cd4",
 };
 
 export default function Page() {
