@@ -1,3 +1,5 @@
+import { FaGithub, FaLinkedinIn } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 import {
   SiChai,
   SiDocker,
@@ -14,10 +16,6 @@ import {
   SiReact,
   SiTypescript,
 } from "react-icons/si";
-
-import { GitHubIcon } from "@/components/icons/GitHubIcon";
-import { LinkedInIcon } from "@/components/icons/LinkedInIcon";
-import { XIcon } from "@/components/icons/XIcon";
 
 import {
   Achievement0,
@@ -114,17 +112,17 @@ const social = [
   {
     name: "GitHub",
     url: "https://github.com/",
-    icon: GitHubIcon,
+    icon: FaGithub,
   },
   {
     name: "LinkedIn",
     url: "https://www.linkedin.com/in/shunjid/",
-    icon: LinkedInIcon,
+    icon: FaLinkedinIn,
   },
   {
     name: "X",
     url: "https://x.com/shunjid_codes",
-    icon: XIcon,
+    icon: FaXTwitter,
   },
 ];
 
