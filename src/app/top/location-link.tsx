@@ -1,5 +1,5 @@
-import { GlobeIcon } from "lucide-react";
 import React from "react";
+import { FaMapMarkerAlt } from "react-icons/fa";
 
 import { IResume } from "@/data/types";
 
@@ -18,7 +18,7 @@ export default function LocationLink(
         target="_blank"
         aria-label={location}
       >
-        <GlobeIcon className="h-3 w-3" />
+        <FaMapMarkerAlt className="h-3 w-3" />
         {location}
       </a>
     </p>
