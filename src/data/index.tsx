@@ -1,8 +1,10 @@
 import {
+  SiChai,
   SiDocker,
   SiExpress,
   SiFlask,
   SiJest,
+  SiMocha,
   SiMongodb,
   SiMysql,
   SiNestjs,
@@ -37,67 +39,62 @@ const skills = [
   {
     title: "Python",
     icon: SiPython,
-    color: "bg-yellow-100",
+    color: "bg-yellow-200",
   },
   {
     title: "Express",
     icon: SiExpress,
-    color: "bg-gray-100",
+    color: "bg-gray-200",
   },
   {
     title: "React.js",
     icon: SiReact,
-    color: "bg-sky-100",
+    color: "bg-sky-200",
   },
   {
     title: "Next.js",
     icon: SiNextdotjs,
-    color: "bg-gray-100",
-  },
-  {
-    title: "Vue.js",
-    icon: SiVuedotjs,
-    color: "bg-emerald-100",
-  },
-  {
-    title: "Vuetify",
-    icon: SiVuetify,
-    color: "bg-sky-100",
-  },
-  {
-    title: "Nuxt.js",
-    icon: SiNuxtdotjs,
-    color: "bg-emerald-100",
+    color: "bg-gray-200",
   },
   {
     title: "Nest.js",
     icon: SiNestjs,
-    color: "bg-rose-100",
+    color: "bg-rose-200",
   },
   {
     title: "Flask",
     icon: SiFlask,
-    color: "bg-sky-100",
+    color: "bg-sky-200",
   },
   {
     title: "Jest",
     icon: SiJest,
-    color: "bg-red-100",
+    color: "bg-red-200",
+  },
+  {
+    title: "Mocha",
+    icon: SiMocha,
+    color: "bg-amber-200",
+  },
+  {
+    title: "Chai",
+    icon: SiChai,
+    color: "bg-orange-200",
   },
   {
     title: "Pytest",
     icon: SiPytest,
-    color: "bg-sky-100",
+    color: "bg-sky-200",
   },
   {
     title: "MongoDB",
     icon: SiMongodb,
-    color: "bg-green-100",
+    color: "bg-green-200",
   },
   {
     title: "MySQL",
     icon: SiMysql,
-    color: "bg-indigo-100",
+    color: "bg-indigo-200",
   },
   {
     title: "Docker",
