@@ -15,7 +15,7 @@ export default function Education(
     <Section>
       <h2 className="text-xl font-bold">Education</h2>
       {educations.map((education) => (
-        <Card key={1} className="bg-warning">
+        <Card key={education.degree} className="bg-warning">
           <CardHeader>
             <div className="flex items-center justify-between gap-x-2 text-base">
               <span className="my-2 inline-flex items-center justify-center gap-x-1 font-semibold leading-none">
