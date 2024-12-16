@@ -10,10 +10,10 @@ export default function Achievement0() {
       <a
         href="https://en.wikipedia.org/wiki/Sheikh_Hasina"
         className="font-semibold hover:underline"
-        aria-label="Honorable Prime Minister of Bangladesh Sheikh Hasina"
+        aria-label="Former Prime Minister of Bangladesh"
         target="_blank"
       >
-        {"Honorable Prime Minister of Bangladesh Sheikh Hasina"}
+        {"Former Prime Minister of Bangladesh"}
       </a>
       {` for outstanding performance in the Secondary School Certificate
       examination. The event was organized by Sheikh Russel Jatiyo Shishu
