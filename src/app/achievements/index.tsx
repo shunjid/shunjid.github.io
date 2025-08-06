@@ -20,7 +20,7 @@ export default function Achievements(
             key={achievement.toString()}
             className="flex items-center space-x-3 text-xs rtl:space-x-reverse"
           >
-            <LuTrophy className="h-2.5 w-2.5 flex-shrink-0 font-bold text-blue-500" />
+            <LuTrophy className="h-2.5 w-2.5 shrink-0 font-bold text-blue-500" />
             <div className="text-justify leading-relaxed">{achievement()}</div>
           </li>
         ))}
