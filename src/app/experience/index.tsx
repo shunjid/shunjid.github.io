@@ -21,10 +21,10 @@ export default function Experience(
         >
           <CardHeader>
             <div className="flex items-center justify-between gap-x-2 text-base">
-              <span className="my-2 inline-flex items-center justify-center gap-x-1 font-semibold leading-none">
+              <span className="my-2 inline-flex items-center justify-center gap-x-1 leading-none font-semibold">
                 {individualExperience.title}
               </span>
-              <div className="text-xs tabular-nums text-gray-700">
+              <div className="text-xs text-gray-700 tabular-nums">
                 {individualExperience.start} - {individualExperience.end}
               </div>
             </div>
