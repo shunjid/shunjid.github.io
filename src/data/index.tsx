@@ -30,7 +30,7 @@ import {
 import { IResume } from "./types";
 
 const summaries = [
-  "With over 3 years of expertise, I specialize in designing and developing robust software solutions.",
+  "With over 4 years of expertise, I specialize in designing and developing robust software solutions.",
   "My expertise includes collaborating with cross-functional teams, leading projects from concept to completion, and consistently delivering high-quality results.",
   "From shaping technical blueprints to troubleshooting complex issues, I am committed to pushing the boundaries of technology.",
 ];
