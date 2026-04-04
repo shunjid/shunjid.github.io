@@ -137,7 +137,7 @@ const experience = [
       "Partner with product and engineering to set technical direction and address system-wide gaps.",
       "Deliver high quality solutions by applying strong judgment and managing technical debt proactively.",
       "Lead complex technical design and documentation through research and architectural evaluation.",
-      "Identify and address security issues by analyzing risks and implementing protective measures."
+      "Identify and address security issues by analyzing risks and implementing protective measures.",
     ],
   },
   {
