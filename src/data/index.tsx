@@ -275,7 +275,7 @@ const resume: IResume = {
   initials: "SRS",
   location: "Dhaka, Bangladesh",
   locationLink: "https://www.google.com/maps/place/Dhaka",
-  about: "Software Engineer II at Optimizely",
+  about: "Senior Software Engineer at Optimizely",
   avatarUrl: "https://avatars.githubusercontent.com/u/29749035?v=4",
   personalWebsiteUrl: "https://shunjid.github.io",
   summaries,
