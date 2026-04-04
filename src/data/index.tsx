@@ -128,11 +128,24 @@ const social = [
 
 const experience = [
   {
+    title: "Senior Software Engineer",
+    company: "Optimizely",
+    companyWebsite: "https://optimizely.com",
+    start: "2026 APR",
+    end: "CURRENT",
+    contributions: [
+      "Partner with product and engineering to set technical direction and address system-wide gaps.",
+      "Deliver high quality solutions by applying strong judgment and managing technical debt proactively.",
+      "Lead complex technical design and documentation through research and architectural evaluation.",
+      "Identify and address security issues by analyzing risks and implementing protective measures."
+    ],
+  },
+  {
     title: "Software Engineer II",
     company: "Optimizely",
     companyWebsite: "https://optimizely.com",
     start: "2023 JAN",
-    end: "CURRENT",
+    end: "2026 MAR",
     contributions: [
       "Collaborate with the product team to analyze opportunities and gaps in existing and new projects.",
       "Create technical specifications through in-depth research on product and architecture and performing spikes.",
