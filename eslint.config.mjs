@@ -1,21 +1,28 @@
-import path from "node:path";
-import { fileURLToPath } from "node:url";
-
+import js from "@eslint/js";
 import { defineConfig } from "eslint/config";
-import nextCoreWebVitals from "eslint-config-next/core-web-vitals";
 import simpleImportSort from "eslint-plugin-simple-import-sort";
-
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
+import tseslint from "typescript-eslint";
 
 export default defineConfig([
+  js.configs.recommended,
+  ...tseslint.configs.recommended,
   {
-    extends: [...nextCoreWebVitals],
+    ignores: [".next/**", "out/**", "node_modules/**"],
+  },
+  {
+    files: ["**/*.{js,mjs,cjs,ts,jsx,tsx}"],
     plugins: {
       "simple-import-sort": simpleImportSort,
     },
     rules: {
       "simple-import-sort/imports": "error",
+      "@typescript-eslint/no-unused-vars": [
+        "error",
+        {
+          argsIgnorePattern: "^_",
+          varsIgnorePattern: "^_",
+        },
+      ],
     },
   },
 ]);
