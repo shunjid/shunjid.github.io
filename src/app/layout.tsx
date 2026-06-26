@@ -1,7 +1,21 @@
 import "./globals.css";
 
 import type { Metadata } from "next";
+import { Google_Sans, Inter } from "next/font/google";
 import React from "react";
+
+const googleSans = Google_Sans({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-google-sans",
+  adjustFontFallback: false,
+});
+
+const inter = Inter({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-inter",
+});
 
 export const metadata: Metadata = {
   title: "Shunjid Rahman",
@@ -14,19 +28,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link
-          rel="preconnect"
-          href="https://fonts.gstatic.com"
-          crossOrigin="anonymous"
-        />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Google+Sans:wght@400;500;600;700&display=swap"
-          rel="stylesheet"
-        />
-      </head>
+    <html lang="en" className={`${googleSans.variable} ${inter.variable}`}>
       <body>{children}</body>
     </html>
   );

@@ -46,5 +46,10 @@
   "resolutions": {
     "@types/react": "19.2.17",
     "@types/react-dom": "19.2.3"
-  }
+  },
+  "browserslist": [
+    "since 2022",
+    "not dead",
+    "not op_mini all"
+  ]
 }
