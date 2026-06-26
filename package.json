@@ -48,8 +48,6 @@
     "@types/react-dom": "19.2.3"
   },
   "browserslist": [
-    "since 2022",
-    "not dead",
-    "not op_mini all"
+    "baseline widely available"
   ]
 }
