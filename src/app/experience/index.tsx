@@ -51,14 +51,14 @@ export default function Experience(
           return (
             <div key={group.company}>
               <a
-                className="group/link mb-3 inline-flex items-center gap-1 text-base font-bold tracking-tight text-gray-900 transition-colors hover:text-violet-600 dark:text-gray-50 dark:hover:text-violet-400"
+                className="group/link mb-3 inline-flex items-center gap-1 text-base font-bold tracking-tight text-gray-900 transition-colors hover:text-emerald-600 dark:text-gray-50 dark:hover:text-emerald-400"
                 href={group.companyWebsite}
                 aria-label={group.company}
                 target="_blank"
                 rel="noreferrer"
               >
                 {group.company}
-                <FiArrowUpRight className="size-3.5 text-gray-400 transition-all group-hover/link:translate-x-0.5 group-hover/link:-translate-y-0.5 group-hover/link:text-violet-600 dark:group-hover/link:text-violet-400" />
+                <FiArrowUpRight className="size-3.5 text-gray-400 transition-all group-hover/link:translate-x-0.5 group-hover/link:-translate-y-0.5 group-hover/link:text-emerald-600 dark:group-hover/link:text-emerald-400" />
               </a>
 
               <ol className="relative space-y-5 border-l border-gray-200 dark:border-gray-800">
@@ -72,8 +72,8 @@ export default function Experience(
                     >
                       {isCurrent ? (
                         <span className="absolute top-1 -left-1.5 flex size-3 items-center justify-center">
-                          <span className="absolute inline-flex size-full animate-ping rounded-full bg-violet-400 opacity-75" />
-                          <span className="relative size-3 rounded-full bg-violet-500 ring-4 ring-white dark:ring-gray-950" />
+                          <span className="absolute inline-flex size-full animate-ping rounded-full bg-emerald-400 opacity-75" />
+                          <span className="relative size-3 rounded-full bg-emerald-500 ring-4 ring-white dark:ring-gray-950" />
                         </span>
                       ) : (
                         <span className="absolute top-1.5 -left-1 size-2 rounded-full bg-gray-300 ring-4 ring-white dark:bg-gray-600 dark:ring-gray-950" />
@@ -87,7 +87,7 @@ export default function Experience(
                           className={cn(
                             "rounded-full px-2 py-0.5 text-[10px] font-medium tabular-nums",
                             isCurrent
-                              ? "bg-violet-100 text-violet-700 dark:bg-violet-500/15 dark:text-violet-300"
+                              ? "bg-emerald-100 text-emerald-700 dark:bg-emerald-500/15 dark:text-emerald-300"
                               : "bg-gray-100 text-gray-500 dark:bg-gray-800 dark:text-gray-400",
                           )}
                         >

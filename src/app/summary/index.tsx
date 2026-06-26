@@ -13,7 +13,7 @@ export default function Summary(
   return (
     <Section>
       <h2 className="text-xl font-bold">About</h2>
-      <div className="space-y-2 border-l-2 border-violet-200 pl-4 dark:border-violet-500/30">
+      <div className="space-y-2 border-l-2 border-emerald-200 pl-4 dark:border-emerald-500/30">
         <p className="text-sm leading-relaxed font-medium text-pretty text-gray-700 dark:text-gray-200">
           {lead}
         </p>
