@@ -58,7 +58,10 @@ export default function Experience(
                 rel="noreferrer"
               >
                 {group.company}
-                <FiArrowUpRight className="size-3.5 text-gray-400 transition-all group-hover/link:translate-x-0.5 group-hover/link:-translate-y-0.5 group-hover/link:text-emerald-600 dark:group-hover/link:text-emerald-400" />
+                <FiArrowUpRight
+                  aria-hidden="true"
+                  className="size-3.5 text-gray-400 transition-all group-hover/link:translate-x-0.5 group-hover/link:-translate-y-0.5 group-hover/link:text-emerald-600 dark:group-hover/link:text-emerald-400"
+                />
               </a>
 
               <ol className="relative space-y-5 border-l border-gray-200 dark:border-gray-800">
@@ -88,7 +91,7 @@ export default function Experience(
                             "rounded-full px-2 py-0.5 text-[10px] font-medium tabular-nums",
                             isCurrent
                               ? "bg-emerald-100 text-emerald-700 dark:bg-emerald-500/15 dark:text-emerald-300"
-                              : "bg-gray-100 text-gray-500 dark:bg-gray-800 dark:text-gray-400",
+                              : "bg-gray-100 text-gray-600 dark:bg-gray-800 dark:text-gray-300",
                           )}
                         >
                           {role.start} — {formatDate(role.end)}

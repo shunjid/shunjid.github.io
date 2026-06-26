@@ -24,7 +24,7 @@ export default function Education(
               <h3 className="text-sm font-semibold text-gray-900 dark:text-gray-50">
                 {education.degree}
               </h3>
-              <span className="rounded-full bg-gray-100 px-2 py-0.5 text-[10px] font-medium text-gray-500 tabular-nums dark:bg-gray-800 dark:text-gray-400">
+              <span className="rounded-full bg-gray-100 px-2 py-0.5 text-[10px] font-medium text-gray-600 tabular-nums dark:bg-gray-800 dark:text-gray-300">
                 {education.start} — {education.end}
               </span>
             </div>
@@ -37,7 +37,10 @@ export default function Education(
               rel="noreferrer"
             >
               {education.institution}
-              <FiArrowUpRight className="size-3 text-gray-400 transition-all group-hover/link:translate-x-0.5 group-hover/link:-translate-y-0.5 group-hover/link:text-emerald-600 dark:group-hover/link:text-emerald-400" />
+              <FiArrowUpRight
+                aria-hidden="true"
+                className="size-3 text-gray-400 transition-all group-hover/link:translate-x-0.5 group-hover/link:-translate-y-0.5 group-hover/link:text-emerald-600 dark:group-hover/link:text-emerald-400"
+              />
             </a>
 
             <dl className="mt-2.5 divide-y divide-gray-100 overflow-hidden rounded-lg border border-gray-100 dark:divide-gray-800 dark:border-gray-800">

@@ -18,7 +18,7 @@ export default function LocationLink(
         target="_blank"
         aria-label={location}
       >
-        <FaMapMarkerAlt className="h-3 w-3" />
+        <FaMapMarkerAlt aria-hidden="true" className="h-3 w-3" />
         {location}
       </a>
     </p>

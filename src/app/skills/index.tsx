@@ -18,6 +18,7 @@ export default function Skills(
             className="group inline-flex items-center gap-1.5 rounded-lg border border-gray-200 px-2.5 py-1.5 text-xs font-medium text-gray-700 transition-all hover:-translate-y-0.5 hover:border-emerald-300 hover:shadow-sm dark:border-gray-800 dark:text-gray-200"
           >
             <skill.icon
+              aria-hidden="true"
               className="size-4 transition-transform group-hover:scale-110"
               style={{ color: skill.color }}
             />
