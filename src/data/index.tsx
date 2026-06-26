@@ -39,72 +39,72 @@ const skills = [
   {
     title: "TypeScript",
     icon: SiTypescript,
-    color: "bg-blue-200",
+    color: "#3178C6",
   },
   {
     title: "Python",
     icon: SiPython,
-    color: "bg-yellow-200",
+    color: "#3776AB",
   },
   {
     title: "Express",
     icon: SiExpress,
-    color: "bg-gray-200",
+    color: "#000000",
   },
   {
     title: "React.js",
     icon: SiReact,
-    color: "bg-sky-200",
+    color: "#149ECA",
   },
   {
     title: "Next.js",
     icon: SiNextdotjs,
-    color: "bg-gray-200",
+    color: "#000000",
   },
   {
     title: "Nest.js",
     icon: SiNestjs,
-    color: "bg-rose-200",
+    color: "#E0234E",
   },
   {
     title: "Flask",
     icon: SiFlask,
-    color: "bg-sky-200",
+    color: "#000000",
   },
   {
     title: "Jest",
     icon: SiJest,
-    color: "bg-red-200",
+    color: "#C21325",
   },
   {
     title: "Mocha",
     icon: SiMocha,
-    color: "bg-amber-200",
+    color: "#8D6748",
   },
   {
     title: "Chai",
     icon: SiChai,
-    color: "bg-orange-200",
+    color: "#A30701",
   },
   {
     title: "Pytest",
     icon: SiPytest,
-    color: "bg-sky-200",
+    color: "#0A9EDC",
   },
   {
     title: "MongoDB",
     icon: SiMongodb,
-    color: "bg-green-200",
+    color: "#47A248",
   },
   {
     title: "MySQL",
     icon: SiMysql,
-    color: "bg-indigo-200",
+    color: "#4479A1",
   },
   {
     title: "Docker",
     icon: SiDocker,
-    color: "bg-sky-200",
+    color: "#2496ED",
   },
 ];
 

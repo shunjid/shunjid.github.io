@@ -11,19 +11,19 @@ export default function Skills(
   return (
     <Section>
       <h2 className="text-xl font-bold">Skills</h2>
-      <div className="flex flex-wrap gap-3">
-        {skills.map((skill) => {
-          const badgeStyle = `inline-block whitespace-nowrap rounded-[0.52rem] ${skill.color} px-[0.85em] pb-[0.45em] pt-[0.45em] text-center align-baseline text-[0.68em] font-semibold leading-none`;
-
-          return (
-            <span key={skill.title} className={badgeStyle}>
-              <div className="flex gap-1">
-                <skill.icon />
-                {skill.title}
-              </div>
-            </span>
-          );
-        })}
+      <div className="flex flex-wrap gap-2">
+        {skills.map((skill) => (
+          <span
+            key={skill.title}
+            className="group inline-flex items-center gap-1.5 rounded-lg border border-gray-200 px-2.5 py-1.5 text-xs font-medium text-gray-700 transition-all hover:-translate-y-0.5 hover:border-violet-300 hover:shadow-sm dark:border-gray-800 dark:text-gray-200"
+          >
+            <skill.icon
+              className="size-4 transition-transform group-hover:scale-110"
+              style={{ color: skill.color }}
+            />
+            {skill.title}
+          </span>
+        ))}
       </div>
     </Section>
   );
