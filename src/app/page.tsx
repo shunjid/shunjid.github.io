@@ -10,13 +10,35 @@ import Summary from "./summary";
 import Top from "./top";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("http://localhost:3611"),
+  metadataBase: new URL(resume.personalWebsiteUrl),
   title: resume.name,
   description: resume.about,
   openGraph: {
+    type: "website",
+    url: "/",
+    siteName: resume.name,
     title: resume.name,
     description: resume.about,
-    images: "https://images2.imgbox.com/aa/f3/E3kW6oXS_o.png",
+    images: [
+      {
+        url: "/og.png",
+        width: 1200,
+        height: 630,
+        alt: `${resume.name} — ${resume.about}`,
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: resume.name,
+    description: resume.about,
+    creator: "@shunjid_codes",
+    images: [
+      {
+        url: "/og.png",
+        alt: `${resume.name} — ${resume.about}`,
+      },
+    ],
   },
   keywords: [
     "shunjid",
@@ -31,14 +53,17 @@ export const metadata: Metadata = {
     "সানজিদ সৌরভ",
   ],
   icons: {
-    icon: ["/favicon.ico?v=4"],
-    apple: ["/apple-icon.png?v=4"],
-    shortcut: ["/apple-icon.png"],
+    icon: [
+      { url: "/icon.svg?v=5", type: "image/svg+xml" },
+      { url: "/favicon.ico?v=5", sizes: "any" },
+    ],
+    apple: ["/apple-icon.png?v=5"],
+    shortcut: ["/apple-icon.png?v=5"],
   },
 };
 
 export const viewport: Viewport = {
-  themeColor: "#512cd4",
+  themeColor: "#059669",
 };
 
 export default function Page() {
