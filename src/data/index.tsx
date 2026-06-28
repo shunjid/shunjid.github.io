@@ -111,7 +111,7 @@ const skills = [
 const social = [
   {
     name: "GitHub",
-    url: "https://github.com/",
+    url: "https://github.com/shunjid",
     icon: FaGithub,
   },
   {

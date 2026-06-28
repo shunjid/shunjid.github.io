@@ -43,6 +43,7 @@ export default function Top(
         width={112}
         height={112}
         fetchPriority="high"
+        referrerPolicy="no-referrer"
         className="size-24 shrink-0 rounded-2xl object-cover shadow-sm ring-1 ring-gray-200 sm:size-28 dark:ring-gray-800"
       />
     </div>

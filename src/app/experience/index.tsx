@@ -55,7 +55,7 @@ export default function Experience(
                 href={group.companyWebsite}
                 aria-label={group.company}
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
               >
                 {group.company}
                 <FiArrowUpRight

@@ -12,6 +12,7 @@ export default function Achievement0() {
         className="font-semibold hover:underline"
         aria-label="Former Prime Minister of Bangladesh"
         target="_blank"
+        rel="noopener noreferrer"
       >
         {"Former Prime Minister of Bangladesh"}
       </a>

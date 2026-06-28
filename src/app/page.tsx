@@ -13,6 +13,10 @@ export const metadata: Metadata = {
   metadataBase: new URL(resume.personalWebsiteUrl),
   title: resume.name,
   description: resume.about,
+  referrer: "strict-origin-when-cross-origin",
+  alternates: {
+    canonical: "/",
+  },
   openGraph: {
     type: "website",
     url: "/",

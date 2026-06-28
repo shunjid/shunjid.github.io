@@ -16,6 +16,7 @@ export default function LocationLink(
         className="inline-flex gap-x-1.5 align-baseline leading-none font-medium decoration-dotted transition-colors hover:text-emerald-600 hover:underline"
         href={locationLink}
         target="_blank"
+        rel="noopener noreferrer"
         aria-label={location}
       >
         <FaMapMarkerAlt aria-hidden="true" className="h-3 w-3" />

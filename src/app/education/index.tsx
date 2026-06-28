@@ -34,7 +34,7 @@ export default function Education(
               href={education.website}
               aria-label={education.institution}
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
               {education.institution}
               <FiArrowUpRight
