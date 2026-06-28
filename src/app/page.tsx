@@ -9,23 +9,34 @@ import Skills from "./skills";
 import Summary from "./summary";
 import Top from "./top";
 
+const description =
+  "Senior Software Engineer at Optimizely with 5+ years building robust, scalable software — public APIs, webhook events, and developer tooling. Based in Dhaka, Bangladesh.";
+
+const PUBLISHED_TIME = "2021-01-01T00:00:00.000Z";
+const linkedInProfile =
+  resume.social.find((platform) => platform.name === "LinkedIn")?.url ??
+  resume.personalWebsiteUrl;
+
 export const metadata: Metadata = {
   metadataBase: new URL(resume.personalWebsiteUrl),
   title: resume.name,
-  description: resume.about,
+  description,
+  authors: [{ name: resume.name, url: linkedInProfile }],
   referrer: "strict-origin-when-cross-origin",
   alternates: {
     canonical: "/",
   },
   openGraph: {
-    type: "website",
+    type: "article",
     url: "/",
     siteName: resume.name,
     title: resume.name,
-    description: resume.about,
+    description,
+    publishedTime: PUBLISHED_TIME,
+    authors: [linkedInProfile],
     images: [
       {
-        url: "/og.png",
+        url: "/og.png?v=2",
         width: 1200,
         height: 630,
         alt: `${resume.name} — ${resume.about}`,
@@ -35,11 +46,11 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: resume.name,
-    description: resume.about,
+    description,
     creator: "@shunjid_codes",
     images: [
       {
-        url: "/og.png",
+        url: "/og.png?v=2",
         alt: `${resume.name} — ${resume.about}`,
       },
     ],
