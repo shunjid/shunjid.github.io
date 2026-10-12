@@ -128,11 +128,24 @@ const social = [
 
 const experience = [
   {
+    title: "Senior Software Engineer (Team Lead)",
+    company: "Optimizely",
+    companyWebsite: "https://optimizely.com",
+    start: "2026 OCT",
+    end: "CURRENT",
+    contributions: [
+      "Lead the team's daily work and ensure software is delivered on time with high quality.",
+      "Support engineers through coaching, task planning, career development, and feedback.",
+      "Collaborate with Product, Design, and other teams to align goals and remove delivery risks.",
+      "Drive technical excellence, continuous improvement, and a positive team culture.",
+    ],
+  },
+  {
     title: "Senior Software Engineer",
     company: "Optimizely",
     companyWebsite: "https://optimizely.com",
     start: "2026 APR",
-    end: "CURRENT",
+    end: "2026 SEP",
     contributions: [
       "Partner with product and engineering to set technical direction and address system-wide gaps.",
       "Deliver high quality solutions by applying strong judgment and managing technical debt proactively.",
