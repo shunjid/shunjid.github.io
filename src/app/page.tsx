@@ -41,11 +41,11 @@ export const metadata: Metadata = {
   keywords: resume.seo.keywords,
   icons: {
     icon: [
-      { url: "/icon.svg?v=6", type: "image/svg+xml" },
-      { url: "/favicon.ico?v=6", sizes: "any" },
+      { url: "/icon.svg?v=7", type: "image/svg+xml" },
+      { url: "/favicon.ico?v=7", sizes: "any" },
     ],
-    apple: ["/apple-icon.png?v=6"],
-    shortcut: ["/apple-icon.png?v=6"],
+    apple: ["/apple-icon.png?v=7"],
+    shortcut: ["/apple-icon.png?v=7"],
   },
 };
 
