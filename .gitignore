@@ -40,8 +40,6 @@ next-env.d.ts
 .idea
 .vscode
 
-# impeccable working files
-/.impeccable/review/
-/.impeccable/mocks/
-/.impeccable/questions/
-/.impeccable/hook.cache.json
+# impeccable design-tool files
+/.impeccable/
+/PRODUCT.md
