@@ -232,7 +232,7 @@ Calm, square-cornered, and few.
 
 ### Lists / Rows
 - **Row:** hairline top rule (ink 10%), 24px vertical padding, 9rem mono date column, then title and muted body.
-- **Role row:** a 12px square swatch in the role's step color sits above the date (beside it on mobile). The current role adds an emerald "Now" in 700 weight after the title.
+- **Role row:** a 12px square swatch in the role's step color sits above the date (beside it on mobile). The current role adds an emerald "Now" in 700 weight after the title. Each contribution is a bullet with a 6px square marker in the same step color as the role swatch (ink at 30% for roles outside the climb), aligned to the first line. Current roles use present tense, past roles past tense.
 - **Detail list:** label in muted on the left, mono figure in ink on the right, max 28rem wide.
 
 ### Links

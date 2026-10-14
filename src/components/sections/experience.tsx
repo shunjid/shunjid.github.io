@@ -80,8 +80,15 @@ function Company({
                 </h4>
                 <ul className="text-muted mt-3 space-y-2 leading-relaxed">
                   {role.contributions.map((contribution) => (
-                    <li key={contribution} className="text-pretty">
-                      {contribution}
+                    <li key={contribution} className="flex gap-3">
+                      <span
+                        aria-hidden="true"
+                        className={cn(
+                          "mt-[0.65em] size-1.5 shrink-0",
+                          tone ? tone.background : "bg-ink/30",
+                        )}
+                      />
+                      <span className="text-pretty">{contribution}</span>
                     </li>
                   ))}
                 </ul>

@@ -67,10 +67,10 @@
       "start": "2026 APR",
       "end": "2026 SEP",
       "contributions": [
-        "Partner with product and engineering to set technical direction and address system-wide gaps.",
-        "Deliver high quality solutions by applying strong judgment and managing technical debt proactively.",
-        "Lead complex technical design and documentation through research and architectural evaluation.",
-        "Identify and address security issues by analyzing risks and implementing protective measures."
+        "Partnered with product and engineering to set technical direction and address system-wide gaps.",
+        "Delivered high-quality solutions by applying strong judgment and managing technical debt proactively.",
+        "Led complex technical design and documentation through research and architectural evaluation.",
+        "Identified and addressed security issues by analyzing risks and implementing protective measures."
       ]
     },
     {
@@ -82,10 +82,10 @@
       "start": "2023 JAN",
       "end": "2026 MAR",
       "contributions": [
-        "Collaborate with the product team to analyze opportunities and gaps in existing and new projects.",
-        "Create technical specifications through in-depth research on product and architecture and performing spikes.",
-        "Migrate existing services to the latest runtime and framework versions.",
-        "Build public API endpoints, webhook events and resolve customer reported bugs."
+        "Collaborated with the product team to analyze opportunities and gaps in existing and new projects.",
+        "Created technical specifications through in-depth research on product and architecture, and through spikes.",
+        "Migrated existing services to the latest runtime and framework versions.",
+        "Built public API endpoints and webhook events, and resolved customer-reported bugs."
       ]
     },
     {
@@ -97,9 +97,9 @@
       "start": "2022 JAN",
       "end": "2022 DEC",
       "contributions": [
-        "Design and develop public API endpoints and webhook events with unit tests and adherence to best practices.",
-        "Update existing public API endpoints and webhook events based on customer requirements.",
-        "Debug and resolve customer-reported bugs."
+        "Designed and developed public API endpoints and webhook events with unit tests, following best practices.",
+        "Updated existing public API endpoints and webhook events based on customer requirements.",
+        "Debugged and resolved customer-reported bugs."
       ]
     },
     {
@@ -110,9 +110,9 @@
       "start": "2021 OCT",
       "end": "2021 DEC",
       "contributions": [
-        "Create data analytics dashboard reports for the product team to understand various metrics.",
-        "Update existing public API endpoints and webhook events based on customer needs.",
-        "Debug and resolve customer-reported bugs."
+        "Created data analytics dashboard reports to help the product team understand various metrics.",
+        "Updated existing public API endpoints and webhook events based on customer needs.",
+        "Debugged and resolved customer-reported bugs."
       ]
     },
     {
@@ -123,8 +123,8 @@
       "start": "2021 MAY",
       "end": "2021 SEP",
       "contributions": [
-        "Collaborate as one of the interns in a team of three to plan a configuration export/import system.",
-        "Develop the configuration export/import system with unit and integration tests."
+        "Collaborated as one of three interns on a team to plan a configuration export/import system.",
+        "Developed the configuration export/import system with unit and integration tests."
       ]
     },
     {
@@ -135,8 +135,8 @@
       "start": "2020 OCT",
       "end": "2021 MAR",
       "contributions": [
-        "Lead a team of 5 Engineering students during a mobile app development using Flutter.",
-        "Integrate bKash payment gateway into the mobile app developed for icddr,b."
+        "Led a team of 5 engineering students in developing a mobile app with Flutter.",
+        "Integrated the bKash payment gateway into the mobile app developed for icddr,b."
       ]
     }
   ],
