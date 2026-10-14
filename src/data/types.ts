@@ -1,52 +1,62 @@
-import { IconType } from "react-icons";
+export type IconName = "linkedin" | "github" | "x";
 
-export type ResumeAchievementLoader = () => React.JSX.Element;
+export type RichText = { text: string; href?: string } | { quote: string };
 
-export interface ResumeSocialInfo {
+export interface SocialLink {
   name: string;
   url: string;
-  icon: IconType;
+  icon: IconName;
 }
 
-export interface ResumeExperience {
+export interface Experience {
   title: string;
+  shortTitle: string;
   company: string;
   companyWebsite: string;
+  companyLogo?: string;
   start: string;
   end: string;
   contributions: string[];
 }
 
-export interface ResumeEducation {
+export interface Achievement {
+  date?: string;
+  title: string;
+  description: RichText[];
+}
+
+export interface Skill {
+  title: string;
+}
+
+export interface Education {
   institution: string;
+  degree: string;
   start: string;
   end: string;
-  degree: string;
   website: string;
-  descriptionList: {
-    title?: string;
-    text: string;
-  }[];
+  details: { label: string; value: string }[];
 }
 
-export interface ResumeSkill {
-  icon: IconType;
-  title: string;
-  color: string;
-}
-
-export type IResume = {
+export interface Resume {
   name: string;
-  initials: string;
+  title: string;
+  company: string;
+  companyLogo?: string;
   location: string;
-  locationLink: string;
-  about: string;
   avatarUrl: string;
   personalWebsiteUrl: string;
-  social: ResumeSocialInfo[];
-  skills: ResumeSkill[];
-  summaries: string[];
-  experience: ResumeExperience[];
-  achievements: ResumeAchievementLoader[];
-  educations: ResumeEducation[];
-};
+  summary: string;
+  seo: {
+    description: string;
+    publishedTime: string;
+    twitterCreator: string;
+    ogImage: string;
+    keywords: string[];
+  };
+  social: SocialLink[];
+  experience: Experience[];
+  achievements: Achievement[];
+  skills: Skill[];
+  educations: Education[];
+}

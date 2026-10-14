@@ -1,0 +1,331 @@
+{
+  "name": "Shunjid Rahman Showrov",
+  "title": "Senior Software Engineer (Team Lead)",
+  "company": "Optimizely",
+  "companyLogo": "/optimizely.svg",
+  "location": "Dhaka, Bangladesh",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/29749035?v=4",
+  "personalWebsiteUrl": "https://shunjid.github.io",
+  "summary": "As Team Lead, I run the team's daily delivery, coach engineers through planning, career growth, and feedback, and work with Product and Design to remove delivery risks.",
+  "seo": {
+    "description": "Senior Software Engineer (Team Lead) at Optimizely with 5+ years building robust, scalable software: public APIs, webhook events, and developer tooling. Based in Dhaka, Bangladesh.",
+    "publishedTime": "2021-01-01T00:00:00.000Z",
+    "twitterCreator": "@shunjid_codes",
+    "ogImage": "/og.png?v=3",
+    "keywords": [
+      "shunjid",
+      "shunjid showrov",
+      "srs",
+      "shunjid rahman",
+      "showrov",
+      "সানজিদ",
+      "সানজিদ রহমান সৌরভ",
+      "সৌরভ",
+      "সানজিদ রহমান",
+      "সানজিদ সৌরভ"
+    ]
+  },
+  "social": [
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/shunjid/",
+      "icon": "linkedin"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/shunjid",
+      "icon": "github"
+    },
+    {
+      "name": "X",
+      "url": "https://x.com/shunjid_codes",
+      "icon": "x"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Senior Software Engineer (Team Lead)",
+      "shortTitle": "Team Lead",
+      "company": "Optimizely",
+      "companyWebsite": "https://optimizely.com",
+      "companyLogo": "/optimizely.svg",
+      "start": "2026 OCT",
+      "end": "CURRENT",
+      "contributions": [
+        "Lead the team's daily work and ensure software is delivered on time with high quality.",
+        "Support engineers through coaching, task planning, career development, and feedback.",
+        "Collaborate with Product, Design, and other teams to align goals and remove delivery risks.",
+        "Drive technical excellence, continuous improvement, and a positive team culture."
+      ]
+    },
+    {
+      "title": "Senior Software Engineer",
+      "shortTitle": "Senior",
+      "company": "Optimizely",
+      "companyWebsite": "https://optimizely.com",
+      "companyLogo": "/optimizely.svg",
+      "start": "2026 APR",
+      "end": "2026 SEP",
+      "contributions": [
+        "Partner with product and engineering to set technical direction and address system-wide gaps.",
+        "Deliver high quality solutions by applying strong judgment and managing technical debt proactively.",
+        "Lead complex technical design and documentation through research and architectural evaluation.",
+        "Identify and address security issues by analyzing risks and implementing protective measures."
+      ]
+    },
+    {
+      "title": "Software Engineer II",
+      "shortTitle": "SE II",
+      "company": "Optimizely",
+      "companyWebsite": "https://optimizely.com",
+      "companyLogo": "/optimizely.svg",
+      "start": "2023 JAN",
+      "end": "2026 MAR",
+      "contributions": [
+        "Collaborate with the product team to analyze opportunities and gaps in existing and new projects.",
+        "Create technical specifications through in-depth research on product and architecture and performing spikes.",
+        "Migrate existing services to the latest runtime and framework versions.",
+        "Build public API endpoints, webhook events and resolve customer reported bugs."
+      ]
+    },
+    {
+      "title": "Software Engineer I",
+      "shortTitle": "SE I",
+      "company": "Optimizely",
+      "companyWebsite": "https://optimizely.com",
+      "companyLogo": "/optimizely.svg",
+      "start": "2022 JAN",
+      "end": "2022 DEC",
+      "contributions": [
+        "Design and develop public API endpoints and webhook events with unit tests and adherence to best practices.",
+        "Update existing public API endpoints and webhook events based on customer requirements.",
+        "Debug and resolve customer-reported bugs."
+      ]
+    },
+    {
+      "title": "Software Engineer",
+      "shortTitle": "Engineer",
+      "company": "Newscred",
+      "companyWebsite": "https://newscred.com",
+      "start": "2021 OCT",
+      "end": "2021 DEC",
+      "contributions": [
+        "Create data analytics dashboard reports for the product team to understand various metrics.",
+        "Update existing public API endpoints and webhook events based on customer needs.",
+        "Debug and resolve customer-reported bugs."
+      ]
+    },
+    {
+      "title": "Software Engineer Intern",
+      "shortTitle": "Intern",
+      "company": "Newscred",
+      "companyWebsite": "https://newscred.com",
+      "start": "2021 MAY",
+      "end": "2021 SEP",
+      "contributions": [
+        "Collaborate as one of the interns in a team of three to plan a configuration export/import system.",
+        "Develop the configuration export/import system with unit and integration tests."
+      ]
+    },
+    {
+      "title": "Software Developer",
+      "shortTitle": "Developer",
+      "company": "Daffodil International University",
+      "companyWebsite": "https://diu.edu.bd",
+      "start": "2020 OCT",
+      "end": "2021 MAR",
+      "contributions": [
+        "Lead a team of 5 Engineering students during a mobile app development using Flutter.",
+        "Integrate bKash payment gateway into the mobile app developed for icddr,b."
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "date": "2023 Q3",
+      "title": "Optimizely Spot Award",
+      "description": [
+        {
+          "text": "Received monthly spot award with an appreciation message from a Software Engineering Manager saying, "
+        },
+        {
+          "quote": "Shunjid is one of the most accomplished engineers on our team. His consistent track record of delivering tasks with exceptional quality in recent SPRINTs is truly commendable. He is always humble & open for suggestions, helped others to improve & produced high quality of works."
+        }
+      ]
+    },
+    {
+      "date": "2023 Q1",
+      "title": "Optimizely Spot Award",
+      "description": [
+        {
+          "text": "Received monthly spot award with an appreciation message from the team lead saying, "
+        },
+        {
+          "quote": "Shunjid always tries to learn new things and apply the knowledge in his regular contributions to make our life easier. He has built trust and is always showing great responsibilities for his work."
+        }
+      ]
+    },
+    {
+      "date": "2020",
+      "title": "2nd, International Flutter Hackathon",
+      "description": [
+        {
+          "text": "I had the privilege of leading a team of 5 talented Software Engineering students in the highly competitive International Flutter Hackathon 2020. Together, we developed mobile application using a cutting-edge technology Flutter, which ultimately earned us the title of 'Runner-up'."
+        }
+      ]
+    },
+    {
+      "date": "2020",
+      "title": "4th, Microsoft AI Gaming, Code-A-Bot",
+      "description": [
+        {
+          "text": "Microsoft Student Partners (Mumbai) organized an international programming tournament where the challenge was to code a bot using Python and Azure Cognitive Services API. Competing against talented participants from around the world, I made it to the final round and secured the 4th position."
+        }
+      ]
+    },
+    {
+      "date": "2019",
+      "title": "Challenge Conqueror, Grameenphone API Hackathon",
+      "description": [
+        {
+          "text": "Our team was selected as one of the top 20 teams among hundreds of applicants from all over the country for the final round of the competition. The challenge was to integrate a software's premium subscription billing with Grameenphone's Direct Operator Billing API. We were among the top teams who successfully accomplished this task and received certification."
+        }
+      ]
+    },
+    {
+      "date": "2019",
+      "title": "Student of the Summer Semester",
+      "description": [
+        {
+          "text": "Received an award in recognition of my outstanding academic performance during the summer of 2019, under the Department of Software Engineering at Daffodil International University."
+        }
+      ]
+    },
+    {
+      "date": "2019",
+      "title": "Champion, Software Project Fair",
+      "description": [
+        {
+          "text": "Under the mentorship of Md. Anwar Hossen, Assistant Professor, Department of SWE, Daffodil International University, our team was awarded the prestigious title of champions in the Web Project category for our exceptional work on 'Routine Explorer and Analytical Intelligence' project."
+        }
+      ]
+    },
+    {
+      "date": "2014",
+      "title": "Felicitation for S.S.C Exam Result",
+      "description": [
+        {
+          "text": "Received a prestigious medal and certificate from the "
+        },
+        {
+          "text": "Former Prime Minister of Bangladesh",
+          "href": "https://en.wikipedia.org/wiki/Sheikh_Hasina"
+        },
+        {
+          "text": " in recognition of outstanding academic performance in the Secondary School Certificate (SSC) examination. This honor reflects excellence in academic achievement at the national level. The award ceremony was organized by Sheikh Russel Jatiyo Shishu Kishore Parishad."
+        }
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "title": "TypeScript"
+    },
+    {
+      "title": "Python"
+    },
+    {
+      "title": "Express"
+    },
+    {
+      "title": "React.js"
+    },
+    {
+      "title": "Next.js"
+    },
+    {
+      "title": "Nest.js"
+    },
+    {
+      "title": "Flask"
+    },
+    {
+      "title": "Jest"
+    },
+    {
+      "title": "Mocha"
+    },
+    {
+      "title": "Chai"
+    },
+    {
+      "title": "Pytest"
+    },
+    {
+      "title": "MongoDB"
+    },
+    {
+      "title": "MySQL"
+    },
+    {
+      "title": "Docker"
+    }
+  ],
+  "educations": [
+    {
+      "institution": "Daffodil International University",
+      "degree": "B.Sc. in Software Engineering",
+      "start": "2017",
+      "end": "2021",
+      "website": "https://diu.edu.bd",
+      "details": [
+        {
+          "label": "CGPA",
+          "value": "3.99 / 4.00"
+        },
+        {
+          "label": "Credit hours",
+          "value": "139 / 139"
+        },
+        {
+          "label": "Result based scholarships (trimesters)",
+          "value": "10 / 12"
+        },
+        {
+          "label": "Training",
+          "value": "1 month training program by Dongseo University, South Korea"
+        }
+      ]
+    },
+    {
+      "institution": "Dhaka City College",
+      "degree": "Higher Secondary School Certificate",
+      "start": "2014",
+      "end": "2016",
+      "website": "https://www.dhakacitycollege.edu.bd/",
+      "details": [
+        {
+          "label": "GPA",
+          "value": "5.00 / 5.00"
+        }
+      ]
+    },
+    {
+      "institution": "A.K. High School",
+      "degree": "Secondary School Certificate",
+      "start": "2009",
+      "end": "2014",
+      "website": "https://akschoolandcollege.edu.bd/",
+      "details": [
+        {
+          "label": "GPA (S.S.C)",
+          "value": "5.00 / 5.00"
+        },
+        {
+          "label": "GPA (J.S.C)",
+          "value": "5.00 / 5.00"
+        }
+      ]
+    }
+  ]
+}

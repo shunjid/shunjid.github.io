@@ -1,7 +1,6 @@
 import "./globals.css";
 
-import type { Metadata } from "next";
-import { Google_Sans, Inter } from "next/font/google";
+import { Google_Sans, Google_Sans_Code } from "next/font/google";
 import React from "react";
 
 const googleSans = Google_Sans({
@@ -11,16 +10,11 @@ const googleSans = Google_Sans({
   adjustFontFallback: false,
 });
 
-const inter = Inter({
+const googleSansCode = Google_Sans_Code({
   subsets: ["latin"],
   display: "swap",
-  variable: "--font-inter",
+  variable: "--font-google-sans-code",
 });
-
-export const metadata: Metadata = {
-  title: "Shunjid Rahman",
-  description: "Portfolio of Shunjid Rahman Showrov",
-};
 
 export default function RootLayout({
   children,
@@ -28,7 +22,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={`${googleSans.variable} ${inter.variable}`}>
+    <html
+      lang="en"
+      className={`${googleSans.variable} ${googleSansCode.variable}`}
+    >
       <body>{children}</body>
     </html>
   );
